@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Survey</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        ul {
+            list-style-type: decimal;
+            padding-left: 20px;
+        }
+        ul img {
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Family Survey Data</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No.</th>
+                <th>Head of Family</th>
+                <th>Number of Dependents</th>
+                <th>Names of Dependents</th>
+                <th>Passport-size Photo of All Members</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>ABC</td>
+                <td>3</td>
+                <td>
+                    <ul>
+                        <li>Aaa</li>
+                        <li>Bbb</li>
+                        <li>Ccc</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><img src="Aaa.jpg" alt="Aaa" width="50"></li>
+                        <li><img src="Bbb.jpg" alt="Bbb" width="50"></li>
+                        <li><img src="Ccc.jpg" alt="Ccc" width="50"></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DEF</td>
+                <td>2</td>
+                <td>
+                    <ul>
+                        <li>Xxx</li>
+                        <li>Yyy</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><img src="Xxx.jpg" alt="Xxx" width="50"></li>
+                        <li><img src="Yyy.jpg" alt="Yyy" width="50"></li>
+                    </ul>
+                </td>
+            </tr>
+            <!-- Add similar rows for families 3, 4, and 5 -->
+        </tbody>
+    </table>
+</body>
+</html>
